@@ -1,6 +1,7 @@
 #include "../std_lib_facilities.h"
 
 void tolower_s(string& s);
+void symbol_category(string& s);
 
 int main()
 {
