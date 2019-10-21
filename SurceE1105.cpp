@@ -13,3 +13,12 @@ void tolower_s(string& s)
 {
     for(char& x: s) x = tolower(x);
 }
+
+void symbol_category(string& s)
+{
+    istringstream is(s);
+    for(char ch; is.get(ch);)
+    {
+        if()
+    }
+}
