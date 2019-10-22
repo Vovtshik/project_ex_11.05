@@ -1,3 +1,5 @@
+// The program reads the lines and displays the category of each character
+
 #include "../std_lib_facilities.h"
 
 void tolower_s(string& s);
