@@ -84,7 +84,7 @@ void symbol_category(string& s)
                     cout << "\'"<< ch << ch2 << "\'" << " - arithmetic operations character \n";
                     temp = ch;
                 }
-                else
+            else
                 {
                     cout << "\'"<< ch << "\'" << " - arithmetic operations character \n";
                     is.unget();
