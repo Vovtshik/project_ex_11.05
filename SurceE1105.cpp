@@ -5,7 +5,16 @@ void symbol_category(string& s);
 
 int main()
 {
-
+    while(true){
+        cout << "Enter a line to analyze"
+        << " for the category of each character of this line (to exit, enter - quit): \n";
+        string str;
+        getline(cin, str);
+        if(str == "quit")
+            break;
+        else
+            symbol_category(str);
+    }
     return 0;
 }
 
